@@ -15,7 +15,7 @@ using System.Globalization;
 public class CSVDataImport : MonoBehaviour
 {
     [Header("Input Options")]
-    public string loadFile = "TestExport";
+    public string loadFile = "TestFile";
     public char listSeparator = '#';
     //Is true when the second row has the column type info
     public bool typesIncluded = true;
